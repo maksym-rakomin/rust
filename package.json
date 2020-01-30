@@ -1,0 +1,22 @@
+{
+  "name": "asdf",
+  "version": "1.0.0",
+  "description": "The goal of this project is to study the layout of individual page blocks using CSS Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksym-rakomin/rust.git"
+  },
+  "author": "123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksym-rakomin/rust/issues"
+  },
+  "homepage": "https://github.com/maksym-rakomin/rust#readme",
+  "keywords": [
+    "123"
+  ]
+}

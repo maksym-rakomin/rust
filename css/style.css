@@ -247,3 +247,9 @@ a {
     overflow: hidden;
     z-index: -2;
 }
+.slider {
+    font-size: 0;
+}
+.slick-vertical .slick-slide{
+    border: 0;
+}
