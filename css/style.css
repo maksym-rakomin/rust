@@ -41,6 +41,9 @@ a {
 .bg-gainsboro {
     background-color: #e6dfd5;
 }
+.grid {
+    background-color: white;
+}
 .bg-crimson {
     background-color: #d3352a;
 }

@@ -1,0 +1,73 @@
+body {
+    background-color: #d3352a;
+}
+.loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    animation-name: visiblity;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+.loader-bg {
+    background-color: #fff;
+    -webkit-clip-path: url(#holes);
+    clip-path: url(#holes);
+} 
+
+.loader circle {
+    animation-name: zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+.loader circle:nth-child(2n) {
+    animation-duration: 4.5s;
+    animation-delay: 1.5s;
+}
+.loader circle:nth-child(3n) {
+    animation-duration: 4s;
+    animation-delay: .5s;
+}
+.loader circle:nth-child(4n) {
+    animation-duration: 3.5s;
+    animation-delay: 1s;
+}
+
+
+@keyframes zoom {
+    0% {
+        r:0;
+        opacity: 0;
+    }
+    30% {
+        r:10%;
+        opacity: 1;
+    }
+    50% {
+        r:30%;
+    }
+    70% {
+        r:50%;
+    }
+    100% {
+        r:300%;
+    }
+}
+
+@keyframes visiblity{
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+        transform: translate(-200%);
+    }
+} 
